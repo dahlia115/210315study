@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="28.0" layoutY="59.0" text="카테고리" />
+      <Label layoutX="28.0" layoutY="85.0" text="노트북/pc" />
+      <Label layoutX="28.0" layoutY="129.0" text="휴대폰" />
+      <Label layoutX="28.0" layoutY="106.0" text="자동차용품" />
+      <Label layoutX="28.0" layoutY="150.0" text="캠핑/낚시" />
+      <Label layoutX="200.0" layoutY="24.0" text="홈" />
+      <Label layoutX="236.0" layoutY="24.0" text="사회" />
+      <Label layoutX="272.0" layoutY="24.0" text="경제" />
+      <Label layoutX="308.0" layoutY="24.0" text="국제" />
+      <Label layoutX="347.0" layoutY="24.0" text="문화" />
+      <Button layoutX="321.0" layoutY="62.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="52.0" text="로그인" />
+      <PasswordField layoutX="124.0" layoutY="96.0" prefHeight="22.0" prefWidth="87.0" />
+      <TextField layoutX="124.0" layoutY="62.0" prefHeight="22.0" prefWidth="87.0" />
+      <Label layoutX="103.0" layoutY="66.0" text="ID" />
+      <Label layoutX="103.0" layoutY="99.0" text="PW" />
+      <RadioButton layoutX="103.0" layoutY="128.0" mnemonicParsing="false" selected="true" text="여">
+         <toggleGroup>
+            <ToggleGroup fx:id="sex" />
+         </toggleGroup></RadioButton>
+      <RadioButton layoutX="151.0" layoutY="128.0" mnemonicParsing="false" text="남" toggleGroup="$sex" />
+      <TextArea layoutX="103.0" layoutY="213.0" prefHeight="54.0" prefWidth="185.0" />
+      <Label layoutX="103.0" layoutY="189.0" text="하고 싶은 말" />
+      <CheckBox layoutX="103.0" layoutY="156.0" mnemonicParsing="false" text="게임" />
+      <CheckBox layoutX="151.0" layoutY="156.0" mnemonicParsing="false" text="공부" />
+      <TextField layoutX="234.0" layoutY="62.0" prefHeight="22.0" prefWidth="87.0" />
+      <PasswordField layoutX="234.0" layoutY="85.0" prefHeight="22.0" prefWidth="87.0" />
+   </children>
+</AnchorPane>
